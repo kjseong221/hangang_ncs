@@ -1,17 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment1">
 
-    //맛집 그리드뷰
-    <GridView
-        android:id="@+id/gridview"
+
+    <RelativeLayout
+        android:id="@+id/food_ad"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:alignmentMode="alignMargins"
-        android:columnOrderPreserved="false"
+        android:layout_height="100dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/deeppink"
         android:gravity="center"
-        android:numColumns="2"
-        android:padding="4dp" />
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gamrketmedium"
+            android:text="광고"
+            android:textSize="42dp"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/food_option"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@+id/food_ad"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gamrketmedium"
+            android:text="검색 옵션"
+            android:textSize="42dp"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/food_greetings"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_below="@+id/food_option"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/lightred"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gamrketmedium"
+            android:text="인사말"
+            android:textSize="42dp"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="404dp"
+        android:layout_alignParentBottom="true"
+
+        android:gravity="center"
+        tools:context="com.test.gridview.MainActivity">
+        <!--한강 주변 맛집-->
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:gravity="center"
+            android:numColumns="2"
+            android:padding="2dp" />
+    </RelativeLayout>
+
 
 </RelativeLayout>

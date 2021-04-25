@@ -20,11 +20,13 @@ public class Fragment1 extends Fragment {
 
     //가게 사진
     String[] values = {
-
+            "한강주변맛집","한강주변맛집","한강주변맛집","한강주변맛집","한강주변맛집","한강주변맛집",
+            "한강주변맛집","한강주변맛집","한강주변맛집","한강주변맛집","한강주변맛집","한강주변맛집",
     };
     //가게 이름
     int[] images = {
-
+            R.drawable.a,R.drawable.b,R.drawable.c,R.drawable.d,R.drawable.e,R.drawable.f,
+            R.drawable.a,R.drawable.b,R.drawable.c,R.drawable.d,R.drawable.e,R.drawable.f,
     };
 
     @Nullable
