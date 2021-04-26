@@ -28,7 +28,7 @@
     <RelativeLayout
         android:id="@+id/food_option"
         android:layout_width="match_parent"
-        android:layout_height="52dp"
+        android:layout_height="40dp"
         android:layout_below="@+id/food_ad"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="4dp"
@@ -41,16 +41,16 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/gamrketmedium"
             android:text="검색 옵션"
-            android:textSize="42dp"></TextView>
+            android:textSize="24dp"></TextView>
     </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/food_greetings"
         android:layout_width="match_parent"
-        android:layout_height="76dp"
+        android:layout_height="56dp"
         android:layout_below="@+id/food_option"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="6dp"
         android:background="@color/lightred"
         android:gravity="center"
 
@@ -66,7 +66,8 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="404dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food_greetings"
         android:layout_alignParentBottom="true"
 
         android:gravity="center"
