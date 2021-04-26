@@ -27,19 +27,27 @@ public class Fragment2 extends Fragment implements View.OnClickListener {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment2, container, false);
 
-        Button picnicbutton1 = (Button)view.findViewById(R.id.picnic_button1);
-        picnicbutton1.setOnClickListener(this);
-
+        Button picnicbutton1 = (Button) view.findViewById(R.id.picnic_button1);
+        picnicbutton1.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onButton1(picnicbutton1);
+            }
+        });
         return view;
+
+
     }
 
     @Override
     public void onClick(View v) {
-        Toast.makeText(getContext(),"피크닉 사이트 이동",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), "피크닉 사이트 이동", Toast.LENGTH_SHORT).show();
     }
 
-    public void onButton1(View view){
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("www.naver.com"));
+    //피크닉 카드뷰 주소
+    public void onButton1(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://m.naver.com"));
         startActivity(intent);
+
     }
 }

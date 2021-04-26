@@ -303,7 +303,7 @@
                                 android:fontFamily="@font/gamrketmedium"
                                 android:gravity="center"
                                 android:linksClickable="true"
-                                android:onClick="onButton1"
+                                android:onClick="onButton2"
                                 android:text="Go to Site"
                                 android:textColor="@color/grey"></Button>
                         </RelativeLayout>
@@ -446,7 +446,7 @@
                                 android:fontFamily="@font/gamrketmedium"
                                 android:gravity="center"
                                 android:linksClickable="true"
-                                android:onClick="onButton1"
+                                android:onClick="onButton3"
                                 android:text="Go to Site"
                                 android:textColor="@color/grey"></Button>
                         </RelativeLayout>
@@ -589,7 +589,7 @@
                                 android:fontFamily="@font/gamrketmedium"
                                 android:gravity="center"
                                 android:linksClickable="true"
-                                android:onClick="onButton1"
+                                android:onClick="onButton4"
                                 android:text="Go to Site"
                                 android:textColor="@color/grey"></Button>
                         </RelativeLayout>
