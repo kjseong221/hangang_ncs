@@ -18,7 +18,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-public class Fragment2 extends Fragment implements View.OnClickListener {
+public class Fragment2 extends Fragment {
     Context context;
     private View view;
 
@@ -27,26 +27,22 @@ public class Fragment2 extends Fragment implements View.OnClickListener {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment2, container, false);
 
-        Button picnicbutton1 = (Button) view.findViewById(R.id.picnic_button1);
-        picnicbutton1.setOnClickListener(new Button.OnClickListener() {
+        //Button 객체 picnic_gotobtn1 생성, picnic_gotobtn1의 id를 가져온다.
+        Button picnic_gotobtn1 = (Button) view.findViewById(R.id.picnic_gotobtn1);
+
+        //버튼 클릭 시 이벤트 오버라이딩
+        picnic_gotobtn1.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onButton1(picnicbutton1);
+                goto_btn1(picnic_gotobtn1);
             }
         });
         return view;
-
-
     }
 
-    @Override
-    public void onClick(View v) {
-        Toast.makeText(getContext(), "피크닉 사이트 이동", Toast.LENGTH_SHORT).show();
-    }
-
-    //피크닉 카드뷰 주소
-    public void onButton1(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://m.naver.com"));
+    //피크닉 "사이트 바로가기" 클릭 시 웹 페이지 이동 함수
+    public void goto_btn1(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://startent.modoo.at/"));
         startActivity(intent);
 
     }

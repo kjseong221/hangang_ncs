@@ -38,8 +38,7 @@
             />
     </LinearLayout>
 
-    //프레임 레이아웃
-
+    <!--프레임 레이아웃-->
     <FrameLayout
         android:id="@+id/main_frame"
         android:layout_width="match_parent"

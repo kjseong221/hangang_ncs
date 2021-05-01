@@ -16,4 +16,6 @@
     <color name="lightpurple">#f3e5f5</color>
     <color name="cardviewcolor">#f6e8d8</color>
     <color name="cardviewbuttoncolor">#ffecdb</color>
+    <color name="lightblue">#7986cb</color>
+    <color name="brownpoint">#9B4747</color>
 </resources>

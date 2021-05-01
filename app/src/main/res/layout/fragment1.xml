@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".Fragment1">
 
-
+    <!--한강 근처 맛집-->
     <RelativeLayout
         android:id="@+id/food_ad"
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/gamrketmedium"
-            android:text="광고"
+            android:text="이벤트 사항"
             android:textSize="42dp"></TextView>
     </RelativeLayout>
 
@@ -45,29 +45,32 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/food_greetings"
+        android:id="@+id/food_mangoplate"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="64dp"
         android:layout_below="@+id/food_option"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="6dp"
-        android:background="@color/lightred"
+        android:background="@color/cardviewcolor"
         android:gravity="center"
-
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/gamrketmedium"
-            android:text="인사말"
-            android:textSize="42dp"></TextView>
+            android:id="@+id/food_mangoplate_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/gmarketbold"
+            android:gravity="center"
+            android:text="한강 공원 주변 맛집, Mangoplate"
+            android:textColor="@color/brownpoint"
+            android:textSize="22dp"></TextView>
+
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/food_greetings"
+        android:layout_below="@+id/food_mangoplate"
         android:layout_alignParentBottom="true"
 
         android:gravity="center"
