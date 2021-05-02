@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:backgroundTint="@color/cardviewcolor"
+                android:backgroundTint="@color/Beige"
                 app:cardCornerRadius="12dp">
 
                 <LinearLayout
@@ -67,27 +67,27 @@
                             <ImageView
                                 android:layout_width="16dp"
                                 android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
+                                android:src="@drawable/picnic_rate"></ImageView>
 
                             <ImageView
                                 android:layout_width="16dp"
                                 android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
+                                android:src="@drawable/picnic_rate"></ImageView>
 
                             <ImageView
                                 android:layout_width="16dp"
                                 android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
+                                android:src="@drawable/picnic_rate"></ImageView>
 
                             <ImageView
                                 android:layout_width="16dp"
                                 android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
+                                android:src="@drawable/picnic_rate"></ImageView>
 
                             <ImageView
                                 android:layout_width="16dp"
                                 android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
+                                android:src="@drawable/picnic_rate"></ImageView>
 
                         </LinearLayout>
 
@@ -160,7 +160,7 @@
                                 android:linksClickable="true"
                                 android:onClick="goto_btn1"
                                 android:text="사이트 바로가기"
-                                android:textColor="@color/grey"></Button>
+                                android:textColor="@color/brownpoint"></Button>
                         </RelativeLayout>
 
 
@@ -170,433 +170,7 @@
 
             </androidx.cardview.widget.CardView>
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:backgroundTint="@color/cardviewcolor"
-                app:cardCornerRadius="12dp">
 
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="12dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        //피크닉 대여소 이름
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/gmarketbold"
-                            android:text="써니텐트 여의도점"
-                            android:textColor="@color/black"
-                            android:textSize="20dp"></TextView>
-
-                        //네이버 마켓 평점
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
-
-                            <ImageView
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
-
-                            <ImageView
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
-
-                            <ImageView
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
-
-                            <ImageView
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
-
-                        </LinearLayout>
-
-                        //OPEN/CLOSE
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginTop="24dp"
-                                android:orientation="vertical"
-                                android:padding="1dp">
-
-                                //평일 OPEN/CLOSE
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:fontFamily="@font/gmarketlight"
-                                    android:gravity="center"
-                                    android:text="평일 11-18"
-                                    android:textSize="16dp"></TextView>
-                                //주말 OPEN/CLOSE
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:fontFamily="@font/gmarketlight"
-                                    android:gravity="center"
-                                    android:text="주말 11-21"
-                                    android:textSize="16dp"></TextView>
-
-
-                            </LinearLayout>
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="100dp"
-                                android:padding="1dp">
-
-                                <ImageView
-                                    android:layout_width="180dp"
-                                    android:layout_height="90dp"
-                                    android:layout_alignParentRight="true"
-                                    android:scaleType="fitXY"
-                                    android:src="@drawable/tent"></ImageView>
-                            </RelativeLayout>
-
-
-                        </LinearLayout>
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <Button
-                                android:id="@+id/picnic_button2"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_alignParentRight="true"
-                                android:autoLink="web"
-                                android:backgroundTint="@color/cardviewbuttoncolor"
-                                android:fontFamily="@font/gamrketmedium"
-                                android:gravity="center"
-                                android:linksClickable="true"
-                                android:onClick="onButton2"
-                                android:text="Go to Site"
-                                android:textColor="@color/grey"></Button>
-                        </RelativeLayout>
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:backgroundTint="@color/cardviewcolor"
-                app:cardCornerRadius="12dp">
-
-                //Card
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="12dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        //피크닉 대여소 이름
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/gmarketbold"
-                            android:text="피크닉 대여소"
-                            android:textColor="@color/black"
-                            android:textSize="20dp"></TextView>
-
-                        //네이버 마켓 평점
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
-
-                            <ImageView
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
-
-                            <ImageView
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
-
-                            <ImageView
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
-
-                            <!--                    <ImageView-->
-                            <!--                        android:layout_width="16dp"-->
-                            <!--                        android:layout_height="16dp"-->
-                            <!--                        android:src="@drawable/rate"></ImageView>-->
-
-                        </LinearLayout>
-
-                        //OPEN/CLOSE
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginTop="24dp"
-                                android:orientation="vertical"
-                                android:padding="1dp">
-
-                                //평일 OPEN/CLOSE
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:fontFamily="@font/gmarketlight"
-                                    android:gravity="center"
-                                    android:text="평일 11-18"
-                                    android:textSize="16dp"></TextView>
-                                //주말 OPEN/CLOSE
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:fontFamily="@font/gmarketlight"
-                                    android:gravity="center"
-                                    android:text="주말 11-21"
-                                    android:textSize="16dp"></TextView>
-
-
-                            </LinearLayout>
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="100dp"
-                                android:padding="1dp">
-
-                                <ImageView
-                                    android:layout_width="180dp"
-                                    android:layout_height="90dp"
-                                    android:layout_alignParentRight="true"
-                                    android:scaleType="fitXY"
-                                    android:src="@drawable/hangang_picnic"></ImageView>
-                            </RelativeLayout>
-
-
-                        </LinearLayout>
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <Button
-                                android:id="@+id/picnic_button3"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_alignParentRight="true"
-                                android:autoLink="web"
-                                android:backgroundTint="@color/cardviewbuttoncolor"
-                                android:fontFamily="@font/gamrketmedium"
-                                android:gravity="center"
-                                android:linksClickable="true"
-                                android:onClick="onButton3"
-                                android:text="Go to Site"
-                                android:textColor="@color/grey"></Button>
-                        </RelativeLayout>
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:backgroundTint="@color/cardviewcolor"
-                app:cardCornerRadius="12dp">
-
-                //Card
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="12dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        //피크닉 대여소 이름
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/gmarketbold"
-                            android:text="피크닉 대여소"
-                            android:textColor="@color/black"
-                            android:textSize="20dp"></TextView>
-
-                        //네이버 마켓 평점
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <ImageView
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
-
-                            <ImageView
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
-
-                            <ImageView
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
-
-                            <ImageView
-                                android:layout_width="16dp"
-                                android:layout_height="16dp"
-                                android:src="@drawable/rate"></ImageView>
-
-                            <!--                                                <ImageView-->
-                            <!--                                                    android:layout_width="16dp"-->
-                            <!--                                                    android:layout_height="16dp"-->
-                            <!--                                                    android:src="@drawable/rate"></ImageView>-->
-
-                        </LinearLayout>
-
-                        //OPEN/CLOSE
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <LinearLayout
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="8dp"
-                                android:layout_marginTop="24dp"
-                                android:orientation="vertical"
-                                android:padding="1dp">
-
-                                //평일 OPEN/CLOSE
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:fontFamily="@font/gmarketlight"
-                                    android:gravity="center"
-                                    android:text="평일 11-18"
-                                    android:textSize="16dp"></TextView>
-                                //주말 OPEN/CLOSE
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:fontFamily="@font/gmarketlight"
-                                    android:gravity="center"
-                                    android:text="주말 11-21"
-                                    android:textSize="16dp"></TextView>
-
-
-                            </LinearLayout>
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="100dp"
-                                android:padding="1dp">
-
-                                <ImageView
-                                    android:layout_width="180dp"
-                                    android:layout_height="90dp"
-                                    android:layout_alignParentRight="true"
-                                    android:scaleType="fitXY"
-                                    android:src="@drawable/hangang_picnic"></ImageView>
-                            </RelativeLayout>
-
-
-                        </LinearLayout>
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <Button
-                                android:id="@+id/picnic_button4"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_alignParentRight="true"
-                                android:autoLink="web"
-                                android:backgroundTint="@color/cardviewbuttoncolor"
-                                android:fontFamily="@font/gamrketmedium"
-                                android:gravity="center"
-                                android:linksClickable="true"
-                                android:onClick="onButton4"
-                                android:text="Go to Site"
-                                android:textColor="@color/grey"></Button>
-                        </RelativeLayout>
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 

@@ -14,8 +14,9 @@
     <color name="green">#81c784</color>
     <color name="grey">#bdbdbd</color>
     <color name="lightpurple">#f3e5f5</color>
-    <color name="cardviewcolor">#f6e8d8</color>
+    <color name="Beige">#f6e8d8</color>
     <color name="cardviewbuttoncolor">#ffecdb</color>
-    <color name="lightblue">#7986cb</color>
+    <color name="lightblue">#e8eaf6</color>
     <color name="brownpoint">#9B4747</color>
+    <color name="lightgreen">#f0f4c3</color>
 </resources>
