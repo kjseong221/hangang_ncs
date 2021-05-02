@@ -14,8 +14,8 @@
         android:layout_height="150dp"
         android:layout_marginBottom="2dp"
         android:gravity="center"
-        android:padding="2dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="2dp">
 
         <ImageView
             android:id="@+id/food_imageview"
@@ -40,9 +40,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/lightgreen"
             android:fontFamily="@font/gamrketmedium"
             android:text="검색 옵션(Spinner 사용)"
-            android:textSize="24dp"></TextView>
+            android:textSize="18dp"></TextView>
     </RelativeLayout>
 
     <RelativeLayout
@@ -52,7 +53,7 @@
         android:layout_below="@+id/food_option"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="6dp"
-        android:background="@color/Beige"
+        android:background="@color/beige"
         android:gravity="center"
         android:orientation="horizontal">
 
